@@ -1,0 +1,113 @@
+.badge {
+  background-color: #777;
+}
+
+.tabs-left {
+    margin-top: 3rem;
+    position: absolute;
+    bottom: 300px;
+    width: 400px;
+}
+
+.nav-tabs {
+    float: left;
+    border-bottom: 0 !important;
+    width: 20%;
+    margin-right: -32px;}
+.nav-tabs li {
+  float: none;
+  margin: 0;
+}
+.nav-tabs li a {
+  margin-right: 0;
+  border: 0;
+  border-radius: 0;
+  background-color: #fff;
+  border: 1px solid #f5f5f5;
+}
+.nav-tabs li a:hover {
+  background-color: #444;
+}
+.nav-tabs li a:active {
+  background-color: #444;
+}
+.nav-tabs .glyphicon {
+  color: #000;
+}
+.nav-tabs .active .glyphicon {
+  color: #333;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+  border: 0;
+}
+
+.tab-content {
+  margin-left: 45px;
+}
+.tab-content .tab-pane {
+  display: none;
+  background-color: #fff;
+  padding: 1.6rem;
+  overflow-y: auto;
+  height: 400px!important;
+}
+.tab-content .active {
+  display: block;
+}
+
+.list-group {
+  width: 100%;
+}
+.list-group .list-group-item {
+  height: auto;
+}
+.list-group .list-group-item h4, .list-group .list-group-item span {
+  line-height: 11px;
+}
+div#a h4, p {
+    color: #00a19a;
+    font-size: 16px;
+}
+p.desii {
+    font-size: 14px;
+    font-family: monospace;
+    margin-top: 20px;
+    color: #505050;
+}
+li.list-group-item {
+    border: none;
+}
+
+div#d h4 {
+    color: #00a19a;
+    font-weight: 500;
+    margin-left: 10px;
+}
+div#b p {
+    color: #00a19a;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.mapboxgl-popup-content p {
+    font-size: 14px;
+    color: #444;
+}
+.mapboxgl-popup-content h5 {
+    font-size: 15px;
+    color: #00a19a;
+    font-weight: 600;
+}
+
+@media (min-width: 481px) and (max-width: 767px){
+  div#midd-heaae{
+    padding: 5px;
+  }
+  .site-logo-wrap .site-logo {
+    width: 60px;
+  }
+  div#map {
+    height: 500px;
+  }
+}
